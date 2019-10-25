@@ -1,9 +1,6 @@
-# project1
+# HOVLane-Project-1
 
 Team Name, Group Members, Project Description,  A Sketch of the project, what API's you are using
-
-
-Megalosaurus Team
 
 Christa Tolson
 Javier Pagan
