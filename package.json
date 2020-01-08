@@ -1,6 +1,6 @@
 {
-  "title": "Agency",
-  "name": "startbootstrap-agency",
+  "title": "HOVLane",
+  "name": "HOVLane",
   "version": "5.2.1",
   "scripts": {
     "start": "gulp watch"

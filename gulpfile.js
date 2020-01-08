@@ -1,5 +1,9 @@
 "use strict";
 
+// load Server
+const express = require("express");
+const app = express();
+
 // Load plugins
 const autoprefixer = require("gulp-autoprefixer");
 const browsersync = require("browser-sync").create();
@@ -13,6 +17,11 @@ const rename = require("gulp-rename");
 const sass = require("gulp-sass");
 const uglify = require("gulp-uglify");
 
+// PORT
+const PORT = process.env.PORT || 3001;
+
+
+
 // Load package.json for banner
 const pkg = require('./package.json');
 
@@ -24,6 +33,11 @@ const banner = ['/*!\n',
   ' */\n',
   '\n'
 ].join('');
+
+// Start the API server
+server.listen(PORT, function() {
+  console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
+});
 
 // BrowserSync
 function browserSync(done) {
@@ -136,3 +150,4 @@ exports.vendor = vendor;
 exports.build = build;
 exports.watch = watch;
 exports.default = build;
+exports.express = express;
