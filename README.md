@@ -1,12 +1,4 @@
-# HOVLane-Project-1
-
-Team Name, Group Members, Project Description,  A Sketch of the project, what API's you are using
-
-Christa Tolson
-Javier Pagan
-Michelle Crutchfield 
-Darcie Jones
-
+# HOVLane-firebase
 
 HOVlane 
 
